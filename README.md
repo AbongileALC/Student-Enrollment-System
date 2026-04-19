@@ -31,25 +31,25 @@ A Java Swing desktop application for managing student course enrollments with ro
 src/main/java/za/ac/cput/studentenrollmentapp/
 │
 ├── gui/
-│   ├── Welcome.java          # Login screen (Admin & Student)
-│   ├── AdminPage.java        # Admin dashboard with tabbed UI
-│   └── StudentPage.java      # Student enrollment page
+│   ├── Welcome.java
+│   ├── AdminPage.java
+│   └── StudentPage.java
 │
 ├── domain/
-│   ├── Student.java          # Student entity
-│   ├── Course.java           # Course entity
-│   ├── Enrollment.java       # Enrollment entity
-│   └── Login.java            # Login entity
+│   ├── Student.java
+│   ├── Course.java
+│   ├── Enrollment.java
+│   └── Login.java
 │
 ├── dao/
-│   ├── StudentDAO.java       # Student CRUD operations
-│   ├── CourseDAO.java        # Course CRUD operations
-│   ├── EnrollmentDAO.java    # Enrollment CRUD operations
-│   └── LoginDAO.java         # Authentication operations
+│   ├── StudentDAO.java
+│   ├── CourseDAO.java
+│   ├── EnrollmentDAO.java
+│   └── LoginDAO.java
 │
 └── connection/
-└── DBConnection.java     # Apache Derby connection
-
+    └── DBConnection.java
+    
 ## How to Run (NetBeans)
 1. Open the project in NetBeans 25
 2. Start the Apache Derby network server on localhost port 1527
